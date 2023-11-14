@@ -1,0 +1,104 @@
+@media screen and (max-width: 400px){
+    
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 42px;
+    }
+
+    .head{
+       font-size: 42px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .logo{
+        display: block;
+        height: 110px;
+        width: 350px;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    ul{
+        text-align: center;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .logo{
+        display: block;
+        height: 100px;
+        width: 350px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .head{
+        font-size: 43px;
+        justify-content: center;
+    }
+    h2{
+        font-size: 43px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo{
+        display: block;
+        height: 100px;
+        width: 360px;
+    }
+    .head{
+        font-size: 48px;
+        justify-content: center;
+    }
+    h2{
+        font-size: 43px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .logo{
+        display: block;
+        height: 90px;
+        width: 330px;
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo{
+        display: block;
+        height: 70px;
+        width: 250px;
+    }
+    .head{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
